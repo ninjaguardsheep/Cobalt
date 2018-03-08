@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/cobalt-org/logos/master/cobald.logo.02.resize.png" alt="Cobalt">
+  <img src="https://dashboard.snapcraft.io/site_media/appmedia/2018/03/logo.png" alt="Cobalt">
   <br />
   Cobalt
 </h1>
