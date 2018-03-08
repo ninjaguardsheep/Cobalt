@@ -1,0 +1,27 @@
+name: cobalt
+version: '0.11.1'
+summary: A straightforward static site generator written in Rust.
+description: |
+  Simple
+  Cobalt will help you get up and running quickly but scales to handle your more complex cases
+  Easy
+  Cobalt tries to be no-hassle, from being easy to install, a workflow-centric command line, to a familiar   template language.
+  Fast
+  Quickly see the results of your work.
+
+grade: stable
+confinement: strict
+
+parts:
+  cobalt:
+    plugin: rust
+    source: https://github.com/cobalt-org/cobalt.rs.git
+    source-tag: v0.11.1
+    build-packages:
+      - cmake
+      - build-essential
+      
+apps:
+  cobalt:
+    command: bin/cobalt
+    plugs: [home, network-bind]
