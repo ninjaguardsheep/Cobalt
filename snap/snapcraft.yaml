@@ -9,6 +9,7 @@ description: |
   Fast
   Quickly see the results of your work.
 
+base: core18
 grade: stable
 confinement: strict
 
@@ -17,9 +18,6 @@ parts:
     plugin: rust
     source: https://github.com/cobalt-org/cobalt.rs.git
     source-tag: v0.15.6
-    build-packages:
-      - cmake
-      - build-essential
       
 apps:
   cobalt:
