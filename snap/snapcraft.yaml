@@ -1,5 +1,5 @@
 name: cobalt
-version: '0.16.1'
+version: '0.16.2'
 summary: A straightforward static site generator written in Rust.
 description: |
   Simple
@@ -17,7 +17,7 @@ parts:
   cobalt:
     plugin: rust
     source: https://github.com/cobalt-org/cobalt.rs.git
-    source-tag: v0.16.1
+    source-tag: v0.16.2
       
 apps:
   cobalt:
